@@ -13,5 +13,7 @@ We utilize pre-trained GloVe embeddings and generate a (sentence length, GloVe e
 The two matrix generated for each input example (pair of sentences) are fed into the Siamese Network:
 
 I: The CNN gathers some local context from neighboring words for each word to make the resultant embedding richer.
+
 II: The 2 stacked BiLSTM are used to generate an ouput embedding representative of the entire sentence.
+
 III: The L1 distance between these "sentence embeddings" is calculated and fed into a Fully connected layer that outputs the final similarity score.
