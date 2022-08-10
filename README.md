@@ -1,7 +1,7 @@
 # Semantic_Text_Similarity_For_Short_And_Long_Text_Sequences
 
 
-A lot of STS pre-trained models are available today, however there is one problem that almost all of them suffer from: They cannot handle very large inputs (for example, BERT has a limit of a maximum of 512 tokens) or lose out on important semantic information as the length of the input text increases (for example, the sentence encodings generated using Universal Sentence Encoder become less representative as the lnength of the input increases).
+A lot of STS pre-trained models are available today, however there is one problem that almost all of them suffer from: They cannot handle very large inputs (for example, BERT has a limit of a maximum of 512 tokens) or lose out on important semantic information as the length of the input text increases (for example, the sentence encodings generated using Universal Sentence Encoder become less representative as the length of the input increases).
 
 
 This notebook presents CNN+BiLSTM based Semantic Network for Semantic Similarity extraction from text input scalable to large text inputs.
